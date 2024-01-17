@@ -1,0 +1,6 @@
+ SDL_RenderPresent(gRenderer);
+}
+int main(int argc, char* args[])
+{
+    if (!initialize())
+    {
